@@ -3,23 +3,16 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <h1>Hello!</h1>
+      <h2>Hello!</h2>
+    </>
+
+  )
 }
+
+// 1. 컴포넌트는 하나의 태그로 반환해야한다.
+// 2. class (x) -> className(o)
+// 3. 자바스크립트 코드 작성이 가능함 -> 변수에 접근 가능 {name}
 
 export default App;
