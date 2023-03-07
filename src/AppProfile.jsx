@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import Profile from './components/Profile';
 
-function App() {
-  return (
+function AppProfile() {
+
+    return (
     <>
-      <h1>Hello!</h1>
-      <h2>Hello!</h2>
+      <Profile/>
     </>
 
   )
@@ -15,4 +15,4 @@ function App() {
 // 2. class (x) -> className(o)
 // 3. 자바스크립트 코드 작성이 가능함 -> 변수에 접근 가능 {name}
 
-export default App;
+export default AppProfile;
