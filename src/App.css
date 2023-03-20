@@ -3,6 +3,7 @@
 }
 
 .profile {
+  position: relative;
   width: 300px;
   text-align: center;
   padding: 1rem;
@@ -12,6 +13,29 @@
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+/* .new {
+  z-index: 999;
+  width: 50px;
+  height: 20px;
+  background-color: lightseagreen;
+  border-radius: 50px;
+  position: relative;
+  top: 30px;
+  left: 200px;
+} */
+
+.new {
+  position: absolute;
+  left: 70%;
+  top: 10%;
+  background-color: aquamarine;
+  padding: 0.2rem 0.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 0.5rem;
+
 }
 
 .photo {
