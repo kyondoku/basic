@@ -3,7 +3,6 @@
 }
 
 .profile {
-  position: relative;
   width: 300px;
   text-align: center;
   padding: 1rem;
@@ -25,6 +24,13 @@
   top: 30px;
   left: 200px;
 } */
+
+.avatar{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
 
 .new {
   position: absolute;
