@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import AppTheme from './AppTheme';
+// import AppTheme from './AppTheme';
 // import AppForm from './AppForm';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 // import AppProfile from './AppProfile';
 // import AppCounter from './AppCounter';
-// import AppProducts from './AppProducts';
+import AppProducts from './basic/AppProducts';
 // import AppXY from './AppXY';
 // import AppMentor from './AppMentor';
 // import AppMentors from './AppMentors';
@@ -14,7 +14,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AppTheme/>
+    <AppProducts/>
   </React.StrictMode>
 );
 

@@ -29,7 +29,7 @@ export default function AppForm() {
         name="email"
         value={form.email}
         onChange={handleChange}
-      ß/>
+      />
       <button>Submit</button>
     </form>
   );
